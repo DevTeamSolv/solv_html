@@ -51,16 +51,23 @@
             <a class="site-logo" href="index.html">
                 
  <img src="images/solv/gifs/gif-faster-smaller.gif" alt="Homepage" height="100" width="100">
-                    
-                  
+                   
+            
                 
             </a>
             
         </div>
+        
+        
+         <!--- Removed menu for now <DIV>
      <a href="#" class="btn">Participate</a><a href="human.html" class="btn">Operation Humanity</a><a href="market.html" class="btn">Marketplace</a><a href="mart/index.html" class="btn">Merchandise</a>
             
-            
-  <br><br><br>
+            </DIV>
+        
+        -->
+        
+        
+
     
 
     
@@ -75,7 +82,10 @@
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 
-                    <li><a class="smoothscroll"  href="#about" title="about">Solution</a></li>
+                    <li><a class="menu"  href="ico.html" title="about">Participate</a></li>
+                     <li><a class="menu"  href="human.html" title="about">Operation Humanity</a></li>
+                    <li><a class="menu"  href="market.html" title="about">Marketplace</a></li>
+                    <li><a class="menu"  href="mart/index.html" title="about">Merchandise</a></li>
                     <li><a class="smoothscroll"  href="#services" title="services">Platforms</a></li>
  		    <li><a class="smoothscroll"  href="#unique" title="services">Features</a></li>
 		    <li><a class="smoothscroll"  href="#community" title="community">Community</a></li>
@@ -83,10 +93,20 @@
                     <li><a class="smoothscroll"  href="#clients" title="clients">Team</a></li>
                     
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                    <img src="images/100ad.png" alt="Homepage"></p>
                 </ul>
     
                 <p> 
-<img src="images/100ad.png" alt="Homepage"></p>
+
+                
+                
+                <style>
+.menu {
+    background-color: green;
+    padding: 10px;
+} 
+</style>
+                
     
                 <ul class="header-nav__social">
                     <li>
@@ -126,13 +146,15 @@
     <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
 
-        <div class="overlay"></div>
+            <div class="overlay"></div>
         <div class="shadow-overlay"></div>
 
         <div class="home-content">
 
+            <div class="row home-content__main">
+
       
-                <br><br><br><br><br><br><br><br>
+              
                 <h3>Solution Token - powered by NEM <img src="images/nem.png" alt="NEM logo" height="32" width="32"></h3>
 
                 <h1>
@@ -144,21 +166,20 @@
   <br><br>  <div>
               <button onclick="document.getElementById('id01').style.display='block'" class="btn btn--stroke">Login</button>
                        
-                 <button onclick="document.getElementById('id01').style.display='block'" class="btn btn--stroke">Register</button>
+                 <button onclick="document.getElementById('id02').style.display='block'" class="btn btn--stroke">Register</button>
             
-                <a href="#" class="btn btn--stroke">
+                <a href="whitepaper.pdf" class="btn btn--stroke">
                        Whitepaper
                     </a><br><br>
 
             <!-- Button to open the modal login form -->
 
                 
-               
+                </div>
             </div>
 
-
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
+ <div class="home-content__scroll">
+                <a href="#styles" class="scroll-link smoothscroll">
                     <span>Scroll Down</span>
                 </a>
             </div>
@@ -451,34 +472,62 @@ Our goal is to aid causes to help solve humanitarian issues and disasters around
             </div>
 
    
-
+     </div>
    </section> 
+
+
+
+ <section id='benefits' class="s-about">
+
+        <div class="row section-header has-bottom-sep">
+            <div class="col-full">
+                
+                <img src="images/sol.svg" height="100" width="100">
+                <h1>Road Map</h1>
+         
+            </div>
+      
+        <div class="row about-desc">
+            <div class="col-full">
+                <p>
+              Enter road map here
+
+        
+                </p>
+
+            </div>
+        </div> 
+            </section>
 
 <!-- end s-about -->
 
 
  <section id='community' class="s-services">
- <div class="row">     
-      <p><a href="#"><img width="150" height="150" class="pull-left" alt="sample-image" src="images/solv/size-/facebook.png">
-                <a href="#"><img width="150" height="150" class="pull-left" alt="sample-image" src="images/solv/icons/telegram.png"></a>
-  
-            <div class="col-six tab-full">
-<br><br>
-            <h1>Join our Community!</h1>
+     
+     
+                <div class="service-icon">
+  <img src="images/solv/facebook.png" height="100px" width="100px">
 
+                     <img src="images/solv/icons/telegram.png" height="100px" width="100px">
+                  </div>
+ <div class="row">     
+     
+    <h1>Join our Community!</h1>
+
+            <div class="col-six tab-full">
+
+          
 
      <p>                Solution Token wishes you to join the community, this will allow you to interact with all team members and founders which you will be able to get to know each and everyone properly through out Solution Token's journey. You will also be able to interact with other members in the community, where you can share ideas and join forces to help each other in projects to come.
 
  </p>
-
-         
-
+     </div>
+        <div class="col-six tab-full">
             
                 <p>
                 We base our community on trust, so here are the platforms that our main community will be based, follow the facebook link on the left to join our private group and become part of the solution crew, where you can have fun and interact with us and other #SOLVCREW members! Right bellow that you have the discord link where you can join that group for more in depth and technical questions and interaction for you technical wizzes. You can also find our other social media pages bellow! </p>
 
-              
-
+            
              
             </div>
 
@@ -528,56 +577,106 @@ Our goal is to aid causes to help solve humanitarian issues and disasters around
     
 <section id="clients" class="s-clients">
         <div class="row clients-testimonials" >
-            <h1 align="center">The Team</h1>
-            <div class="col-full">
-                <div class="testimonials">
+            <div class="row section-header has-bottom-sep">
+         
+           
+                <h1 class="display-2">The Team</h1>
+        
+                <div class="testimonials"> 
 
                     
                     <div class="testimonials__slide">
 
- <img src="images/avatars/ingram.jpg" alt="Author image" class="testimonials__avatar">
+                        
+ 
+                       <div class="row">
+  <div class="column">
+    <div class="card">
+   <img src="images/avatars/ingram.jpg" alt="Author image" class="testimonials__avatar">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        
+      </div>
+    </div>
+  </div>
+                             <div class="column">
+    <div class="card">
+   <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+       
+      </div>
+    </div>
+  </div>
+                             <div class="column">
+    <div class="card">
+   <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+    
+      </div>
+    </div>
+  </div>
+                        </div>     
+                         
+                     
                         <div class="testimonials__info">
-                            <span class="testimonials__name">Andrew Ingram</span> 
-                            <span class="testimonials__pos">CEO</span>
-                        </div>                       
- <p>Andrew saw that our world needed certain changes in society to help aid those in need, and founded Solution with the aim of providing new opportunities for people around the world. His biggest passion and wish is to benefit humanity enough to make an impact that is felt globally, and as the mastermind of Solution, he is determined to lead the company to achieve and maintain this goal.</p>
+                         
+                        </div> 
 
                        
 
                     </div>
    <div class="testimonials__slide">
 
- <img src="images/avatars/ingram.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
-                            <span class="testimonials__name">Andrew Ingram</span> 
-                            <span class="testimonials__pos">CEO</span>
-                        </div>                       
- <p>Andrew saw that our world needed certain changes in society to help aid those in need, and founded Solution with the aim of providing new opportunities for people around the world. His biggest passion and wish is to benefit humanity enough to make an impact that is felt globally, and as the mastermind of Solution, he is determined to lead the company to achieve and maintain this goal.</p>
+                           <div class="column">
+    <div class="card">
+   <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+       
+      </div>
+    </div>
+  </div>
+                             <div class="column">
+    <div class="card">
+   <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+      
+      </div>
+    </div>
+  </div>
+                             <div class="column">
+    <div class="card">
+   <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+    
+      </div>
+    </div>
+                            </div>
 
-                       
-
-                    </div>
-
-                     <div class="testimonials__slide">
-
- <img src="images/avatars/ingram.jpg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Andrew Ingram</span> 
-                            <span class="testimonials__pos">CEO</span>
-                        </div>                       
- <p>Andrew saw that our world needed certain changes in society to help aid those in need, and founded Solution with the aim of providing new opportunities for people around the world. His biggest passion and wish is to benefit humanity enough to make an impact that is felt globally, and as the mastermind of Solution, he is determined to lead the company to achieve and maintain this goal.</p>
-
-                       
-
-                    </div>
-   <div class="testimonials__slide">
-
- <img src="images/avatars/ingram.jpg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Andrew Ingram</span> 
-                            <span class="testimonials__pos">CEO</span>
-                        </div>                       
- <p>Andrew saw that our world needed certain changes in society to help aid those in need, and founded Solution with the aim of providing new opportunities for people around the world. His biggest passion and wish is to benefit humanity enough to make an impact that is felt globally, and as the mastermind of Solution, he is determined to lead the company to achieve and maintain this goal.</p>
+                  
 
                        
 
@@ -587,6 +686,10 @@ Our goal is to aid causes to help solve humanitarian issues and disasters around
 
                 </div><!-- end testimonials -->
                 
+            
+            
+            
+            
             </div> <!-- end col-full -->
         </div> <!-- end client-testimonials -->
 
@@ -779,8 +882,52 @@ class="close" title="Close Modal">&times;</span>
     <div class="login">
       <h2><br>Login</h2>
       <form method="post" action="index.html">
-        <p><input type="text" name="login" value="" placeholder="Username or Email"></p>
-        <p><input type="password" name="password" value="" placeholder="Password"></p>
+        <p><input type="text" name="login" value="" placeholder="Username or Email" size="45"></p>
+        <p><input type="password" name="password" value="" placeholder="Password" size="45></p>
+        <p class="remember_me>
+       
+        </p>
+            
+         <a href="#" class="btn btn--stroke">
+                       Login
+                    </a></p>
+      </form>
+    </div>
+
+    <div class="login-help">
+      <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
+    </div>
+      </header></div></div><br><br>
+    
+
+    
+    
+      </div></form></div>
+    
+
+    <!-- The Modal -->
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+    
+  <form class="modal-content animate" action="/action_page.php">
+<div align="center">
+ <div id="id02" class="w3-modal">
+  <div class="w3-modal-content">
+
+    <header class="w3-container w3-teal"> 
+      <section class="container">
+    <div class="login">
+      <h2><br>Register</h2>
+      <form method="post" action="index.html">
+        <p><input type="text" name="login" value="" placeholder="Full Name" size="45"></p>
+           <p><input type="text" name="login" value="" placeholder="Email" size="45"></p>
+           <p><input type="text" name="login" value="" placeholder="Ethereum Address" size="45"></p>
+           <p><input type="text" name="login" value="" placeholder="Country of Residence" size="45"></p>
+        <p><input type="password" name="password" value="" placeholder="Password" size="45"></p>
+          <p><input type="password" name="password" value="" placeholder="Repeat Password" size="45"></p>
         <p class="remember_me">
        
         </p>
@@ -794,8 +941,6 @@ class="close" title="Close Modal">&times;</span>
       <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
     </div>
       </header></div></div><br><br>
-
-
 
 
 
@@ -835,6 +980,7 @@ class="close" title="Close Modal">&times;</span>
 // Get the modal
 var modal = document.getElementById('id01');
 
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -842,6 +988,12 @@ window.onclick = function(event) {
     }
 }
 </script>
+    
+    
+    
+    
+    
+
     
 </body>
 
