@@ -1248,6 +1248,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #000000;
     margin-top: 0;
 }
+    .display-50 {
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 7.8rem;
+    line-height: 1.25;
+    color: #fff;
+    margin-top: 0;
+}
+           .display-51 {
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 2rem;
+    line-height: 1.25;
+    color: #fff;
+    margin-top: 0;
+}
 
 .display-1--light {
     color: #FFFFFF;
@@ -1282,6 +1296,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead--dark {
     color: #000000;
+    
+    }
+
+.subhead--dark2 {
+    color: #fff;
 }
 
 
@@ -2237,6 +2256,15 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+.s2-about {
+    padding-top: 16.2rem;
+    padding-bottom: 9rem;
+    background-color: #fff;
+    background-image: url(../images/Web-Background-SOlV.gif);
+    color: #010507;
+    position: relative;
+}
+
 .s-about .section-header.has-bottom-sep::before {
     background-color: rgba(255, 255, 255, 0.25);
 }
@@ -2764,7 +2792,7 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-image: url("../images/Web-Background-SOlV.gif");
+
     background-color: #fff;
     color: #757575;
     position: relative;
