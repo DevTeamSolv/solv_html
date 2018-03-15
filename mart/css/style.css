@@ -498,16 +498,9 @@ span.shoping-cart {
 .carousel-inner{
     position: relative;
 }
-.carousel-inner .item{}
-.carousel-inner .item:before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    display: block;
-    background: rgba(0, 0, 0, 0.52);
-    z-index: 9
+
+
+
 }
 .carousel-inner .item img{}
 .carousel-inner .item .carousel-caption{
@@ -533,7 +526,7 @@ span.shoping-cart {
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
-    text-shadow: none;
+    text-shadow: 1;
     color: #fff;
     margin: 0;
     padding: 0;

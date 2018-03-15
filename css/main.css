@@ -211,8 +211,10 @@ p.lead {
     p.lead {
         font-size: 1.8rem;
     }
-    
-    
+}
+
+.h10{
+color: #fff
     
     
 }
@@ -1474,7 +1476,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 40px;
+    left:20px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -2762,7 +2764,16 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-color: #e6e6e6;
+    background-image: url("../images/Web-Background-SOlV.gif");
+    background-color: #fff;
+    color: #757575;
+    position: relative;
+}
+
+.s2-clients {
+    padding-top: 16.2rem;
+    padding-bottom: 16.8rem;
+    background-color: #fff;
     color: #757575;
     position: relative;
 }
