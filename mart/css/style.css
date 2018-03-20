@@ -33,6 +33,36 @@ Tags: black, green, white, two-columns, fixed-width, threaded-comments, sticky-p
    1. GENERAL SECTION
  ====================== */
 
+
+}
+
+
+
+
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+.banner {
+      position:fixed;
+      width: 100px;
+      height: 300px;
+      background-color: mediumaquamarine;
+      top: 300px;
+    }
+}
+
+
+
 * {
     margin: 0;
     padding: 0px;
@@ -146,7 +176,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     font-family: 'Roboto', serif;
     line-height: 140%;
-    color: #01090c;
+    color: #fff;
 }
 h1 {
     font-size: 22px;
@@ -156,6 +186,12 @@ h2 {
 }
 h3 {
     font-size: 18px;
+    
+    
+    
+    
+    
+    
 }
 h4 {
     font-size: 16px;
@@ -333,6 +369,11 @@ html, body, .wrapper{
 /*
     HEADER SECTION
  */
+
+
+    
+
+
 .header-section{
     display: block;
     width: 100%;
@@ -340,6 +381,7 @@ html, body, .wrapper{
     position: relative;
     transition: all 1s;
     background: #fff;
+    
 }
 header.header-section.fixed {
     position: fixed;
@@ -359,15 +401,22 @@ header.header-section.fixed {
     border-radius: 0;
     border: none;
     background: transparent !important
+        
+        
+        
 }
 .header-section .navbar .navbar-brand{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     color: #555252;
+    
+    
+   
 }
 .header-section .navbar .navbar-brand b{
     color: #39b54a;
+    
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -375,6 +424,9 @@ header.header-section.fixed {
     padding: 0 !important;
     background: transparent !important;
 }
+
+
+
 
 ul.navbar-nav{
     background: transparent;
@@ -995,7 +1047,7 @@ a.carousel-control.right > span{
  */
 .news-letter-section{
     display: block;
-    background: url(../images/bg.png) #39b54a no-repeat;
+    background-color: #39b54a;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -1310,7 +1362,7 @@ footer.footer p a{
 #preloader{
     width: 100%;
     height: 100%;
-    animation: preloader_6 5s infinite linear;
+    animation: preloader_5 5s infinite linear;
     background: #fff;
     display: block;
     text-align: center;
@@ -1430,6 +1482,24 @@ footer.footer p a{
     .product-hover a:last-child {
         margin: 5px 25%;
         padding: 10px;
+    }
+}
+
+
+
+#mobileshow    { display:block; }
+
+@media screen and (min-width: 700px) {
+    #mobileshow   { display:none; }
+}
+
+
+
+@media (max-width: 700px) 
+{
+    .carousel-caption
+    {
+        display: none;
     }
 }
 
